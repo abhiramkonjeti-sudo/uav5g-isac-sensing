@@ -1,0 +1,24 @@
+[     0s] calibration (noise-only trials)
+[    55s]   gamma_PAF=4.54  alpha_CFAR=18.5
+[    55s] CRB curves
+[    56s] RMSE vs CRB (single beam, known amplitude)
+[    74s] RMSE vs zero padding
+[    78s] ROC curves
+[   202s] P_D vs SNR
+[   420s] P_D vs beam deactivation
+[   516s] P_D / error vs drone range (link budget)
+[   700s] P_D / error vs drone speed
+[   777s] CFAR vs PAF with a range-localised interference band
+[   858s] Imperfect direct-path cancellation
+[   889s]   perfect cancellation: {'pfa': 0.0225, 'pd': 0.655, 'pfa_cfar': 0.015, 'pd_cfar': 0.63}
+[   922s]   +20 dB residual, no mitigation: {'pfa': 1.0, 'pd': 1.0, 'pfa_cfar': 1.0, 'pd_cfar': 1.0}
+[   955s]   +20 dB residual, range gating only: {'pfa': 1.0, 'pd': 1.0, 'pfa_cfar': 0.045, 'pd_cfar': 0.21}
+[   983s]   +20 dB residual, gating + Blackman-Harris taper: {'pfa': 0.0525, 'pd': 0.54, 'pfa_cfar': 0.0475, 'pd_cfar': 0.415}
+[   983s] Random buildings (static clutter) with and without background subtraction
+[  1037s]   no suppression: {'pfa': 1.0, 'pd': 1.0, 'correct': 0.065, 'pd_hovering': 1.0, 'correct_hovering': 0.0525, 'pfa_cfar': 1.0, 'pd_cfar': 1.0}
+[  1096s]   subtraction, stability 50 dB: {'pfa': 0.3725, 'pd': 0.935, 'correct': 0.67, 'pd_hovering': 0.915, 'correct_hovering': 0.6175, 'pfa_cfar': 0.3475, 'pd_cfar': 0.915}
+[  1153s]   subtraction, stability 60 dB: {'pfa': 0.0875, 'pd': 0.89, 'correct': 0.83, 'pd_hovering': 0.8875, 'correct_hovering': 0.8225, 'pfa_cfar': 0.075, 'pd_cfar': 0.875}
+[  1210s]   subtraction, stability 70 dB: {'pfa': 0.035, 'pd': 0.8325, 'correct': 0.8275, 'pd_hovering': 0.8725, 'correct_hovering': 0.8625, 'pfa_cfar': 0.0325, 'pd_cfar': 0.81}
+[  1269s]   subtraction, perfect stability: {'pfa': 0.0375, 'pd': 0.84, 'correct': 0.8375, 'pd_hovering': 0.875, 'correct_hovering': 0.875, 'pfa_cfar': 0.0275, 'pd_cfar': 0.825}
+[  1270s] example map
+[  1270s] done
