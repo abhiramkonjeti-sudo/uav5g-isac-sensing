@@ -193,8 +193,7 @@ When static urban buildings are present, their strong zero-Doppler reflections c
 
 ---
 
-## Reference & team
+## Reference
 
 Based on **N. Jopanya & J. Osorio**, *"Utilizing 5G NR SSB Blocks for Passive Detection and Localization of Low-Altitude Drones,"* IEEE SPAWC 2025.
 
-Built by **Project Group 37** (Dept. of Electronics and Communication Engineering, MANIT Bhopal) under the supervision of **Dr. Rahul Pal**. Maintained by [Abhiram Konjeti](https://github.com/abhiramkonjeti-sudo).
